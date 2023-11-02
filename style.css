@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    background-color:#192655;
+}
+
+nav {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+#nav-button {
+    color: white;
+    padding: 2px;
+    margin: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 26px;
+}
+
+.about-head{
+    margin: 33px;
+    font-size: 30px;
+    color:purple;
+    font-family: 'Teko', sans-serif;
+}
+.about-info{
+    margin: 30px;
+    background-color: #3876BF;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;}
+.contact-linkedin{
+    display: flex;
+    justify-content: left;
+}
+.footer{
+    background-color: #F3F0CA;
+    border-radius: 10px;
+    border: solid;
+}
